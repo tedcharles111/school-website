@@ -1,266 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pathway University | Transform Your Future</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Latin College | Excellence in Education</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header & Navigation -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M2 7L12 12L22 7" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M12 22V12" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <span>Pathway University</span>
-            </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="programs.html">Programs</a></li>
-                    <li><a href="admissions.html">Admissions</a></li>
-                    <li><a href="resources.html">Resources</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 12H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M3 6H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-            </nav>
-        </div>
-    </header>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <h1>Latin College</h1>
+        <p class="tagline">Est. 1923 | Sapientia et Virtus</p>
+      </div>
+      <nav class="nav">
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#campus">Campus Life</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Transform Your Future with Pathway University</h1>
-                <p class="subtitle">Affordable, flexible, and faith-based education designed for your success.</p>
-                <div class="hero-actions">
-                    <a href="admissions.html" class="btn btn-primary">Apply Now</a>
-                    <a href="programs.html" class="btn btn-secondary">Explore Programs</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Students studying together">
-            </div>
-        </div>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Welcome to Latin College</h2>
+        <p>Where tradition meets excellence in education.</p>
+        <a href="#admissions" class="btn">Apply Now</a>
+      </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
-        <div class="container">
-            <h2 class="section-title">Why Choose Pathway?</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7L12 12L22 7" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M12 22V12" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3>Faith-Based Learning</h3>
-                    <p>Integrate spiritual growth with academic excellence in a supportive community.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 17H15" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M12 17V11" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M8 21H16" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10 3H14" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M12 3V7" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3>Flexible Online Programs</h3>
-                    <p>Study at your own pace with online courses that fit your schedule.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7L12 12L22 7" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M12 22V12" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3>Affordable Tuition</h3>
-                    <p>High-quality education at a fraction of the cost of traditional universities.</p>
-                </div>
-            </div>
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p class="subtitle">A Legacy of Learning</p>
         </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Founded in 1923, <strong>Latin College</strong> has been a beacon of academic excellence and character development for over a century. Our mission is to cultivate wisdom, virtue, and leadership in every student.</p>
+            <p>We offer a rigorous liberal arts curriculum grounded in the classics, fostering critical thinking, creativity, and ethical responsibility.</p>
+            <a href="#about" class="btn-outline">Learn More</a>
+          </div>
+          <div class="about-image">
+            <img src="https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Historic college building" />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Programs Preview -->
-    <section class="programs-preview">
-        <div class="container">
-            <h2 class="section-title">Popular Programs</h2>
-            <div class="programs-grid">
-                <div class="program-card">
-                    <div class="program-image">
-                        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Business student">
-                    </div>
-                    <div class="program-content">
-                        <h3>Business Management</h3>
-                        <p>Develop leadership and entrepreneurial skills for the modern marketplace.</p>
-                        <a href="programs.html" class="btn btn-text">Learn More</a>
-                    </div>
-                </div>
-                <div class="program-card">
-                    <div class="program-image">
-                        <img src="https://images.pexels.com/photos/5905406/pexels-photo-5905406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Computer science student">
-                    </div>
-                    <div class="program-content">
-                        <h3>Computer Science</h3>
-                        <p>Master programming, software development, and technology solutions.</p>
-                        <a href="programs.html" class="btn btn-text">Learn More</a>
-                    </div>
-                </div>
-                <div class="program-card">
-                    <div class="program-image">
-                        <img src="https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Education student">
-                    </div>
-                    <div class="program-content">
-                        <h3>Education</h3>
-                        <p>Prepare to inspire and educate the next generation with proven teaching methods.</p>
-                        <a href="programs.html" class="btn btn-text">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="section-actions">
-                <a href="programs.html" class="btn btn-primary">View All Programs</a>
-            </div>
+    <section id="academics" class="academics section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Academics</h2>
+          <p class="subtitle">A Curriculum for the Future</p>
         </div>
+        <div class="academics-grid">
+          <div class="card">
+            <h3>Classical Studies</h3>
+            <p>Explore the foundations of Western thought through Latin, Greek, philosophy, and literature.</p>
+          </div>
+          <div class="card">
+            <h3>Science & Technology</h3>
+            <p>Hands-on learning in biology, chemistry, physics, and computer science.</p>
+          </div>
+          <div class="card">
+            <h3>Arts & Humanities</h3>
+            <p>Develop creativity and expression in music, theater, visual arts, and writing.</p>
+          </div>
+          <div class="card">
+            <h3>Mathematics</h3>
+            <p>Build logical reasoning and problem-solving skills from algebra to calculus.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">Student Stories</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Pathway University changed my life. The flexible online format allowed me to work full-time while earning my degree. The faith-based approach gave me purpose and direction."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sarah Johnson">
-                        <div>
-                            <h4>Sarah Johnson</h4>
-                            <p>Business Graduate, 2022</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"I never thought I could afford college, but Pathway made it possible. The support from instructors and peers was incredible. I'm now working in my dream career!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Michael Chen">
-                        <div>
-                            <h4>Michael Chen</h4>
-                            <p>Computer Science Graduate, 2023</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section id="admissions" class="admissions section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Admissions</h2>
+          <p class="subtitle">Join Our Community</p>
         </div>
+        <div class="admissions-content">
+          <div class="admissions-text">
+            <p>We seek curious, motivated students who are eager to learn and grow. Our admissions process is holistic and values character as much as achievement.</p>
+            <ul>
+              <li>✓ Open House: October 15 & November 20</li>
+              <li>✓ Application Deadline: January 15</li>
+              <li>✓ Financial Aid Available</li>
+            </ul>
+            <a href="#" class="btn">Apply Online</a>
+          </div>
+          <div class="admissions-image">
+            <img src="https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Students walking on campus" />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <h2>Ready to Start Your Journey?</h2>
-            <p>Join thousands of students who have transformed their lives through education.</p>
-            <div class="cta-actions">
-                <a href="admissions.html" class="btn btn-primary">Apply Now</a>
-                <a href="contact.html" class="btn btn-secondary">Contact Admissions</a>
-            </div>
+    <section id="campus" class="campus section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Campus Life</h2>
+          <p class="subtitle">More Than Just Classes</p>
         </div>
+        <div class="campus-grid">
+          <div class="campus-card">
+            <img src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Library" />
+            <h3>Library & Study Spaces</h3>
+          </div>
+          <div class="campus-card">
+            <img src="https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sports field" />
+            <h3>Athletics & Fitness</h3>
+          </div>
+          <div class="campus-card">
+            <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Student club meeting" />
+            <h3>Clubs & Organizations</h3>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="logo">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7L12 12L22 7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M12 22V12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <span>Pathway University</span>
-                    </div>
-                    <p>Empowering students to achieve their academic and spiritual goals through accessible, high-quality education.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="programs.html">Programs</a></li>
-                        <li><a href="admissions.html">Admissions</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="resources.html">Student Portal</a></li>
-                        <li><a href="resources.html">Library</a></li>
-                        <li><a href="resources.html">Academic Calendar</a></li>
-                        <li><a href="resources.html">Financial Aid</a></li>
-                        <li><a href="resources.html">Career Services</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <address>
-                        <p>123 University Ave<br>Salt Lake City, UT 84101</p>
-                        <p>Phone: (801) 555-1234</p>
-                        <p>Email: info@pathway.edu</p>
-                    </address>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"/>
-                            </svg>
-                        </a>
-                        <a href="#" aria-label="Twitter">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M23 3C23.5523 3 24 3.44772 24 4V20C24 20.5523 23.5523 21 23 21H1C0.447715 21 0 20.5523 0 20V4C0 3.44772 0.447715 3 1 3H23ZM8 5V19H11V15H16V19H19V5H16V9H11V5H8Z"/>
-                            </svg>
-                        </a>
-                        <a href="#" aria-label="Instagram">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2.163C3.204 2.163 0 5.333 0 12C0 18.667 3.204 21.837 12 21.837C20.796 21.837 24 18.667 24 12C24 5.333 20.796 2.163 12 2.163ZM12 16.5C9.5 16.5 7.5 14.5 7.5 12C7.5 9.5 9.5 7.5 12 7.5C14.5 7.5 16.5 9.5 16.5 12C16.5 14.5 14.5 16.5 12 16.5ZM18.5 6.5C17.1193 6.5 16 7.61929 16 9C16 10.3807 17.1193 11.5 18.5 11.5C19.8807 11.5 21 10.3807 21 9C21 7.61929 19.8807 6.5 18.5 6.5Z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 Pathway University. All rights reserved.</p>
-                <ul class="footer-legal">
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                </ul>
-            </div>
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p class="subtitle">We'd Love to Hear From You</p>
         </div>
-    </footer>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p><strong>Latin College</strong></p>
+            <p>123 Academia Lane</p>
+            <p>Classica, ST 12345</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: admissions@latincollege.edu</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><span>Facebook</span></a>
+              <a href="#" aria-label="Twitter"><span>Twitter</span></a>
+              <a href="#" aria-label="Instagram"><span>Instagram</span></a>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Latin College. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
